@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Damian's Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400;500&display=swap"
+    rel="stylesheet">
+  <!-- External CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <nav class="top-tab-bar">
+    <a href="#about" class="tab-link">About</a>
+    <a href="projects/projects.html" class="tab-link">Projects</a>
+    <a href="#contact" class="tab-link">Contact</a>
+  </nav>
+
+  <!-- HEADER -->
+  <header>
+    <div class="hero-image">
+      <img src="images/headers/header_banner.jpg" alt="Header banner" />
+    </div>
+    <div class="status-bar">
+      <div><span class="dot"></span>Available for work</div>
+      <div>Portfolio v1.0</div>
+    </div>
+    <div class="hero-content">
+      <h1>Whats up, <em>Damian</em><br>here.</h1>
+      <p class="tagline">
+        A full time college student passionate about computer science.<br>
+        Open to remote &amp; on-site roles.
+      </p>
+      <div class="hero-nav">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about" class="fade-in">
+    <div class="section-label"><span>01</span>About</div>
+    <div class="about-grid">
+      <div class="about-text fade-in-left">
+        <h2>Ok so...<br>What does this guy do?</h2>
+        <p>
+          Hi! I'm <strong>Damian</strong>, a person who just likes to code!
+          I've been coding for <strong>6 years</strong> — since around middle school.
+        </p>
+        <p>
+          Anyways, I always loved algorithms, debugging, and problem-solving through programming issues.
+          It really feels quite rewarding, and I can't put my finger on why.
+        </p>
+        <a href="images/resumes/coll_resume.pdf" download class="btn btn-ghost"
+          style="display:inline-block;margin-top:0.5rem;">Download CV ↓</a>
+      </div>
+      <div class="fade-in-right">
+        <div class="skills-list stagger-children">
+          <div class="skill-item">JavaScript / TypeScript</div>
+          <div class="skill-item">React / Next.js</div>
+          <div class="skill-item">Node.js</div>
+          <div class="skill-item">Python</div>
+          <div class="skill-item">Lua</div>
+          <div class="skill-item">HTML / CSS</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="fade-in">
+    <div class="section-label"><span>02</span>Selected Work</div>
+    <div class="projects-grid stagger-children">
+
+      <a href="projects/web_user_storage/simplewebstorage.html" class="project-card">
+        <div class="project-image">
+          <img src="images/projects/project_1.png" alt="Code preview" />
+        </div>
+        <div class="project-num">01 —</div>
+        <div class="project-title">A simple client-server user system.</div>
+        <div class="project-desc">The first project I've done. Has a login and sign-up system.</div>
+        <div class="project-footer">
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Flask</span>
+          </div>
+          <span class="project-arrow">↗</span>
+        </div>
+      </a>
+
+      <!-- Remove this card when you have a real project to replace it -->
+      <div class="project-card project-card--dim">
+        <div class="project-num">02 —</div>
+        <div class="project-title" style="color: var(--muted);">More on the way.</div>
+        <div class="project-desc">Currently building. Check back soon or follow along on GitHub.</div>
+        <div class="project-footer">
+          <div class="project-tags">
+            <span class="tag" style="opacity:0.4;">TBD</span>
+          </div>
+          <span class="project-arrow" style="opacity:0.3;">↗</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="fade-in">
+    <div class="section-label"><span>03</span>Contact</div>
+    <div class="contact-grid">
+
+      <div class="contact-left fade-in-left">
+        <h2>Hey, want to<br>reach me?</h2>
+        <p>You can email me below. I try to reply within 24 hours.</p>
+        <a href="https://mail.google.com/mail/?view=cm&to=d.nguyen82006@gmail.com" target="_blank"
+          class="btn btn-primary" style="margin-bottom: 3rem; display:inline-block;">
+          Get in Touch →
+        </a>
+        <div class="contact-links">
+          <a href="https://github.com/DNguyen-D" class="contact-link" target="_blank">
+            <span>GitHub</span>
+            <span class="link-arrow">→</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="contact-right fade-in-right">
+        <h3>Quick facts.</h3>
+        <div class="contact-fact">
+          <div class="contact-fact-row">
+            <span>Status</span>
+            <span>Open to work</span>
+          </div>
+          <div class="contact-fact-row">
+            <span>Experience</span>
+            <span>6 years coding</span>
+          </div>
+          <div class="contact-fact-row">
+            <span>Currently</span>
+            <span>Full-time student</span>
+          </div>
+          <div class="contact-fact-row">
+            <span>Availability</span>
+            <span>Remote &amp; on-site</span>
+          </div>
+          <div class="contact-fact-row">
+            <span>Response time</span>
+            <span>Within 24 hours</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <span>© 2026 Damian Nguyen</span>
+    <span>Designed &amp; Built by Damian</span>
+  </footer>
+
+  <!-- External JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
